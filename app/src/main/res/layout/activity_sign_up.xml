@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="60dp"
+        android:id="@+id/image"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:text="New Little Angel Garments"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F444A"
+        android:id="@+id/text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:hint="Enter Username"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:id="@+id/username"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:hint="Enter Password"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:hint="Confirm Password"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:id="@+id/cpassword"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpassword"
+        android:hint="Sign up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+android:onClick="openMainActivity"
+        android:id="@+id/log"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/log"
+    android:text="Sign in using Google or other Account"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:textColor="#0F444A"
+
+    />
+
+</LinearLayout>
