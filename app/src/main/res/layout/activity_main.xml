@@ -20,6 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/image"
         android:hint="New Little Angel Garments"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="#F60707"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#25000000"
@@ -33,43 +36,51 @@
         android:hint="Username"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:background="@color/white"
-        android:id="@+id/username"
+android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/username1"
+        android:background="#78D8E3"
         android:layout_marginTop="20dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"
+        android:layout_below="@id/username1"
         android:hint="Password"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:background="@color/white"
-        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:id="@+id/password1"
+        android:gravity="center"
+        android:background="#78D8E3"
         android:layout_marginTop="20dp"
         android:textColor="@color/black"/>
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_below="@id/password"
+    android:layout_below="@id/password1"
     android:text="Login"
+    android:layout_marginTop="10dp"
     android:textSize="20sp"
     android:layout_gravity="center"
     android:textStyle="bold"
     android:textColor="@color/black"
-    android:onClick="openMain_Menu"
-    android:id="@+id/log"
+
+    android:id="@+id/log1"
     />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/log"
         android:hint="Sign Up"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:onClick="openSignUp"
+        android:id="@+id/signp"
+
         />
 
 
