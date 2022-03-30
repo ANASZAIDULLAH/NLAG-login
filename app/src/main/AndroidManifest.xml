@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NLAGlogin">
         <activity
+            android:name=".DashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".emptyActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Main_Menu"
             android:exported="false" />
         <activity
